@@ -1,0 +1,16 @@
+.form {
+    /* height: 50px; */
+    padding-left: 5px;
+    /* text-align: center; */
+    font-size: 12pt;
+    line-height: 13pt;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.form span {
+    padding-left: 5px;
+    font-size: 12pt;
+    line-height: 13pt;
+}
