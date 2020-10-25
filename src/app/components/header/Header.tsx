@@ -1,8 +1,5 @@
 import React, { ReactElement } from 'react';
-import styles from './styles/header.module.css';
-// import { navbar1 } from './styles/Header.module.css';
-// import { navbar2 } from './styles/header.css';
-// import './styles/Header.css';
+import styles from './Header.module.css';
 
 function Header() {
     return (
@@ -11,9 +8,6 @@ function Header() {
                 This is first header
             </header>
         </div>
-            // <header className="navbar2" /* {navbar2} */>
-            //     This is second header
-            // </header>
     )
 }
 

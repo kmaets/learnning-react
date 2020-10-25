@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './styles/todo-list.module.css'
+import ToDoItem from './toDoItem/ToDoItem'
 
 function ToDoList() {
     const dominicanaStyles = {
@@ -8,8 +8,12 @@ function ToDoList() {
     }
 
     return (
+        <ToDoItem />
+    )
+    /* return (
         <form className={styles.form}>
             <input type="checkbox" value="" />
+            <p>Test 1</p>
             <span>Test</span><br />
             <label>
                 <input type="checkbox" value="" />
@@ -24,7 +28,7 @@ function ToDoList() {
                 <span>Dominicana</span>
             </label><br />
         </form>
-    )
+    ) */
 }
 
 export default ToDoList;

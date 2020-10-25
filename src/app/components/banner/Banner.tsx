@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './styles/banner.module.css'
-import snowboard from '../../assets/images/snowboard.jpg'
+import styles from './Banner.module.css'
+import snowboard from '../../../assets/images/snowboard.jpg'
 
 function Main() {
     return (

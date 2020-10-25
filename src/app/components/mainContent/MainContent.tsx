@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './styles/main-content.module.css'
+import styles from './MainContent.module.css'
 
 function Main() {
     const lineStyle = {
