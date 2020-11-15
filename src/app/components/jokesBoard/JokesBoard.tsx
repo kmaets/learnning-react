@@ -1,16 +1,21 @@
 import React from 'react';
-import HeaderTitle from "../mainContent/HeaderTitle";
+import HeaderTitle from '../mainContent/HeaderTitle';
+import Joke from './joke/Joke';
 import styles from './JokesBoard.module.css'
 
-function Joke() {
+import jokes from '../../../data/jokes/jokes.json'
+
+function JokesBoard() {
     return (
         <div>
             <HeaderTitle title='This is jokes header' />
-            <div className={styles.jokes}>
-                <p>Joke 1</p>
+            <div className={styles.jokes_board}>
+                <Joke  joke={jokes.rabit}/>
+                <Joke  joke={jokes.fridge}/>
+                <Joke  joke={jokes.lawyer}/>
             </div>
-        </div>
+        </div> 
     )
 }
 
-export default Joke;
+export default JokesBoard;

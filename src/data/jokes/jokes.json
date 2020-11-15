@@ -1,0 +1,14 @@
+{
+    "rabit": {
+        "question": "How does a rabbit make coffee?",
+        "answer": "Hebrews it!"
+    },
+    "lawyer": {
+        "question": "Talk is cheap?",
+        "answer": "Have you ever talked to a lawyer?"
+    },
+    "fridge": {
+        "question": "Why are ghosts such bad liars?",
+        "answer": "Because they are easy to see through."
+    }
+}

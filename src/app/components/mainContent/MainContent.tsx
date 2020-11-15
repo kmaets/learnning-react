@@ -1,7 +1,7 @@
 import React from 'react';
 import ToDoList from '../toDo/ToDoList';
 import ContactsBoard from '../contactsBoard/ContactsBoard'
-import Jokes from '../jokesBoard/JokesBoard'
+import JokesBoard from '../jokesBoard/JokesBoard'
 
 function MainContent() {
     const lineStyle = {
@@ -14,7 +14,7 @@ function MainContent() {
         <main >
             <ToDoList />
             <ContactsBoard />
-            <Jokes />
+            <JokesBoard />
         </main>
     )
 }

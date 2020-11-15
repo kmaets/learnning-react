@@ -1,0 +1,23 @@
+.joke {
+    padding-top: 5px;
+}
+
+.joke p {
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 12pt;
+    color: #333333;
+    line-height: 14pt;
+    margin: 5px;
+}
+
+.joke span {
+    font-weight: bold;
+}
+
+.joke hr {
+    width: 90%;
+    height: 1px;
+    border-width: 0;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
