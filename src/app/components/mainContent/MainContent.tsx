@@ -1,7 +1,7 @@
 import React from 'react';
 import ToDoList from '../toDo/ToDoList';
-import ContactBoard from '../contactBoard/ContactBoard'
-import styles from './MainContent.module.css'
+import ContactsBoard from '../contactsBoard/ContactsBoard'
+import Jokes from '../jokesBoard/JokesBoard'
 
 function MainContent() {
     const lineStyle = {
@@ -11,9 +11,10 @@ function MainContent() {
 
     return (
         // <main className={styles.content} style={lineStyle}>This is main section with ToDo list:</main>
-        <main>
+        <main >
             <ToDoList />
-            <ContactBoard />
+            <ContactsBoard />
+            <Jokes />
         </main>
     )
 }

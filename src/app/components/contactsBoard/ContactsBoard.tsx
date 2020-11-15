@@ -1,24 +1,18 @@
 import React from 'react';
 import HeaderTitle from "../mainContent/HeaderTitle";
 import ContactCard from './contactCard/ContactCard'
-import styles from './ContactBoard.module.css'
+import styles from './ContactsBoard.module.css'
 
 import contactData from '../../../data/contacts/contacts.json'
 
-function TempComp() {
+function ContactsBoard() {
     console.log(contactData);
     return (
         <div>
             <HeaderTitle title='This is contacts board header' />
-            <div className={styles.kittens}>
+            <div className={styles.contacts_board}>
                 <ContactCard
                     {...contactData.contactOne}
-                    /* contact={{ 
-                        name: 'Kitten One',
-                        imgUrl: 'http://placekitten.com/500/400',
-                        phone: '+48 555-One',
-                        email: 'kitthenone@meow.com'
-                    }} */
                 />
                 <ContactCard
                     {...contactData.contactTwo}
@@ -40,4 +34,4 @@ function TempComp() {
     )
 }
 
-export default TempComp;
+export default ContactsBoard;

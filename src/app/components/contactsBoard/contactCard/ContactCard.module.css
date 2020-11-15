@@ -1,4 +1,4 @@
-.kitten_card {
+.contact_card {
     max-width: 255px;
     margin: 10px auto;
     font-family: Roboto, sans-serif;
@@ -8,16 +8,16 @@
     color: #333333;
 }
 
-.kitten_card h3 {
+.contact_card h3 {
     text-align: center;
     margin: 5px;
 }
 
-.kitten_card p {
+.contact_card p {
     margin: 0px;
 }
 
-.kitten_card img {
+.contact_card img {
     display: flex;
     max-width: 100%;
     margin: auto;

@@ -1,14 +1,14 @@
 import React from 'react';
 import styles from './ContactCard.module.css'
 
-type KittenPropsType = {
+type ContactPropsType = {
     name: string,
     imgUrl: string,
     phone: string,
     email: string,
 }
 
-interface KittenProps {
+interface ContactPropsInterface {
     name: string,
     imgUrl: string,
     phone: string,
@@ -16,9 +16,9 @@ interface KittenProps {
 }
 
 // function KittenContactTest1(props: { name: string, imgUrl: string, phone: string, email: string }) {
-function KittenContact(props: KittenPropsType) {
+function ContactCard(props: ContactPropsType) {
     return (
-        <div className={styles.kitten_card}>
+        <div className={styles.contact_card}>
             {/* <img src="http://placekitten.com/300/300" /> */}
             {/* <h3>Mr. Kitten One</h3> */}
             {/* <p>Phone: +48 555-One</p> */}
@@ -32,9 +32,9 @@ function KittenContact(props: KittenPropsType) {
     )
 }
 
-export const KittenContactTest2: React.FC<KittenProps> = (props) => {
+export const ContactCardTest2: React.FC<ContactPropsInterface> = (props) => {
     return (
-        <div className={styles.kitten_card}>
+        <div className={styles.contact_card}>
             {/* <img src="http://placekitten.com/300/300" /> */}
             {/* <h3>Mr. Kitten One</h3> */}
             {/* <p>Phone: +48 555-One</p> */}
@@ -49,4 +49,4 @@ export const KittenContactTest2: React.FC<KittenProps> = (props) => {
     )
 }
 
-export default KittenContact;
+export default ContactCard;
