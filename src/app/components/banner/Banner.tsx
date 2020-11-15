@@ -5,7 +5,7 @@ import snowboard from '../../../assets/images/snowboard.jpg'
 function Main() {
     return (
         <div className={styles.banner_container}>
-            <img className={styles.banner} src={snowboard} />
+            <img className={styles.banner_img} src={snowboard} />
         </div>
     )
 }

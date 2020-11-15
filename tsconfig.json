@@ -16,6 +16,7 @@
     "noImplicitReturns": true,
     "removeComments": true,
     "strict": true,
+    "resolveJsonModule": true
     // "strictNullChecks": true
     // "noImplicitThis": true,
     // "esModuleInterop": true,

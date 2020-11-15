@@ -1,0 +1,14 @@
+{
+    "contactOne": {
+        "name": "Kitten One",
+        "imgUrl": "http://placekitten.com/500/400",
+        "phone": "+48 555-One",
+        "email": "kitthenone@meow.com"
+    },
+    "contactTwo": {
+        "name": "Nice Kitten Two",
+        "imgUrl": "http://placekitten.com/200/200",
+        "phone": "+48 555-Two",
+        "email": "kitthen-niceone@meow.com"
+    }
+}

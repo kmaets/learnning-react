@@ -3,7 +3,7 @@
     background-color: rgba(63, 112, 112, 0.651);
     color: whitesmoke;
     margin: 15px 0px;
-    text-align: center;
+    /* text-align: center; */
     font-size: 14pt;
     display: flex;
     justify-content: center;
