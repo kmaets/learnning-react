@@ -1,5 +1,7 @@
 import React from 'react';
-import ToDoItem from './toDoItem/ToDoItem'
+import HeaderTitle from '../mainContent/HeaderTitle';
+import ToDoItem from './toDoItem/ToDoItem';
+import styles from './ToDoList.module.css'
 
 function ToDoList() {
     const dominicanaStyles = {
@@ -8,7 +10,14 @@ function ToDoList() {
     }
 
     return (
-        <ToDoItem />
+        <div>
+            <HeaderTitle title='This is ToDo list header' />
+            <div className={styles.todo_list}>
+                <ToDoItem />
+                <ToDoItem />
+                <ToDoItem/>
+            </div>
+        </div>
     )
     /* return (
         <form className={styles.form}>

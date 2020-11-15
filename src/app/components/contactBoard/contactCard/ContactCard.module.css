@@ -1,0 +1,24 @@
+.kitten_card {
+    max-width: 255px;
+    margin: 10px auto;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 12pt;
+    line-height: 14pt;
+    color: #333333;
+}
+
+.kitten_card h3 {
+    text-align: center;
+    margin: 5px;
+}
+
+.kitten_card p {
+    margin: 0px;
+}
+
+.kitten_card img {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+}
