@@ -6,15 +6,23 @@ import styles from './JokesBoard.module.css'
 import jokes from '../../../data/jokes/jokes.json'
 
 function JokesBoard() {
+
+    const jokeComponents = jokes.data.map((singleJoke) => {
+        return (
+            <Joke key={singleJoke.id} joke={singleJoke} />
+        )
+    })
+
     return (
         <div>
             <HeaderTitle title='This is jokes header' />
             <div className={styles.jokes_board}>
-                <Joke  joke={jokes.rabit}/>
-                <Joke  joke={jokes.fridge}/>
-                <Joke  joke={jokes.lawyer}/>
+                {/* <Joke  joke={jokes.data[0]}/> */}
+                {/* <Joke  joke={jokes.data[1]}/> */}
+                {/* <Joke  joke={jokes.data[2]}/> */}
+                {jokeComponents}
             </div>
-        </div> 
+        </div>
     )
 }
 

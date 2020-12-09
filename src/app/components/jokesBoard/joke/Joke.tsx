@@ -3,7 +3,7 @@ import styles from './Joke.module.css'
 
 type JokePropsType = {
     joke: {
-        question?: string,
+        question: string,
         answer: string
     }
 }
